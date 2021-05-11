@@ -228,12 +228,12 @@ def build_base_model(model_opt, fields, gpu, checkpoint=None, gpu_id=None):
         model_opt.attention_dropout = model_opt.dropout
 
     # Build Model
-    #if gpu and gpu_id is not None:
-        #device = torch.device("cuda", gpu_id)
-    #elif gpu and not gpu_id:
-        #device = torch.device("cuda")
-    #elif not gpu:
-    device = torch.device("cpu")
+    if gpu and gpu_id is not None:
+        device = torch.device("cuda", gpu_id)
+    elif gpu and not gpu_id:
+        device = torch.device("cuda")
+    elif not gpu:
+        device = torch.device("cpu")
 
     model = build_task_specific_model(model_opt, fields)
 
