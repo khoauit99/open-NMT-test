@@ -1,6 +1,6 @@
 import sentencepiece as spm 
 
-s = spm.SentencePieceProcessor('jpa_wiki_100000.model')
+s = spm.SentencePieceProcessor('data/jpa_wiki_100000.model')
 
 #file1 = open('jyp_train.txt', 'r')
 #Lines = file1.readlines()
@@ -8,11 +8,11 @@ s = spm.SentencePieceProcessor('jpa_wiki_100000.model')
 # for i in Lines:
 #     print(i)
 
-path_input_eng = 'eng_train.txt'
-path_output_eng = 'eng_train_1000.txt'
+path_input_eng = 'data/eng_train.txt'
+path_output_eng = 'data/eng_train_1000.txt'
 
-path_input_jyp = 'jyp_train.txt'
-path_output_jyp = 'jyp_train_1000.txt'
+path_input_jyp = 'data/jyp_train.txt'
+path_output_jyp = 'data/jyp_train_1000.txt'
 
 def tokenize(sequence):
     test = s.Encode(sequence, out_type= str , enable_sampling= True , alpha = 0.01, nbest_size = 2)
