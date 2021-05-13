@@ -5709,7 +5709,7 @@ Alle in den genannten Indizes enthaltenen REITs müssen im REIT-Segment der Deut
 Wann möchten Sie im Tulip Inn Düsseldorf Arena (Superior) übernachten ?
 Jens Böhlke berichtet direkt an den Vorstand und tritt die Nachfolge von Caroline Theissen an , die MetaDesign im Oktober auf eigenen Wunsch verlassen hat .
 Nun kenn ihr also unsere Absichten , wir experimentieren mit der Möglichkeit eine kostenlose live Aussendung jede Woche oder zweimal im Monat auszustrahlen , die in ungefähr zehn Sprachen übersetzt ist .
-Die Informationen werden in einer t Datei in XML zusammengefasst .
+Die Informationen werden in einer ASCII Datei in XML zusammengefasst .
 Marc Brockschmidt fragte sich , was der korrekte Weg sei , mit zwischen zwei Releases gelöschten Paketen umzugehen .
 Vom Flughafen fährt ein Shuttle-Bus zum Porto Nuova (Hauptbahnhof).
 Die Cochlea , ein schneckenförmiges Gebilde (" Kokhlias " ist das griechische Wort für Schnecke), ist das Sinnesorgan für das Hören .
