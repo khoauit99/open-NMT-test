@@ -8,10 +8,10 @@ s = spm.SentencePieceProcessor('data/jpa_wiki_100000.model')
 # for i in Lines:
 #     print(i)
 
-path_input_eng = 'data/eng_train.txt'
+path_input_eng = 'data/eng.txt'
 path_output_eng = 'data/eng_train_1000.txt'
 
-path_input_jyp = 'data/jyp_train.txt'
+path_input_jyp = 'data/jyp.txt'
 path_output_jyp = 'data/jyp_train_1000.txt'
 
 def tokenize(sequence):
@@ -34,7 +34,6 @@ def save_file(path_input, path_output, check_token = False, number_line = 1000):
         line = open_file.readline()
         if check_token == True:
             line = tokenize(line)
-            print(line)
         save_file.write(line)
 
 
