@@ -15,3 +15,4 @@
 # sử dụng hàm translate để dịch 
 + python3 translate.py -model toy-ende/run/model_step_80000.pt -src toy-ende/test.txt -output toy-ende/khoa_predict_2.txt
 
+# Chú ý để các số liệu nó phải tương đối giống nhau để mô hình có thể ra tốt . 
