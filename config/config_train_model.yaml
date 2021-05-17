@@ -32,6 +32,5 @@ valid_steps: 500
 
 
 # important parameter 
-src_word_vec_size : 2217
-tgt_word_vec_size : 1608
-layers : 10 
+src_word_vec_size : 725
+tgt_word_vec_size : 558

@@ -1,8 +1,8 @@
 # Create config for translate.
 
-model : toy-ende/run/model_step_500.pt
+model : toy-ende/run/model_step_1000.pt
 
-src :  toy-ende/test.txt
+src :  toy-ende/data/test.txt
 
 output : toy-ende/khoa_predict_1000.txt
 

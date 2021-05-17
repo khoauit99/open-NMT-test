@@ -39,6 +39,6 @@ def save_file(path_input, path_output, check_token = False, number_line = 1000):
 
 
 #print(tokenize('慈悲あまねく慈愛深きアッラーの御名において。'))
-save_file(path_input_eng, path_output_eng, number_line= 500)
-save_file(path_input_jyp, path_output_jyp,check_token = True, number_line= 500)
+save_file(path_input_eng, path_output_eng, number_line= 100)
+save_file(path_input_jyp, path_output_jyp,check_token = True, number_line= 100)
 #def
