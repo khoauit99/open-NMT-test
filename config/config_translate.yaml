@@ -1,6 +1,6 @@
 # Create config for translate.
 
-model : toy-ende/run/model_v1_step_1000.pt
+model : toy-ende/run/model_v2_step_1000.pt
 
 src :  toy-ende/data/test.txt
 
