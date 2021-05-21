@@ -25,22 +25,22 @@ world_size: 1
 gpu_ranks: [0]
 
 # Where to save the checkpoints
-save_model: toy-ende/run/model_v3
+save_model: model/model_test 
 save_checkpoint_steps: 500
 train_steps: 1000
 valid_steps: 500
 
 
 # important parameter 
-src_word_vec_size : 2218
-tgt_word_vec_size : 1612
+src_word_vec_size : 500
+tgt_word_vec_size : 500
 batch_size : 64
 learning_rate : 0.001
-rnn_size : 1200
+rnn_size : 1000
 optim : 'adam' 
-layers : 4
+#layers : 4
 
-dropout : 0.3
+#dropout : 0.3
 # none important 
 #enc_rnn_size : 
 
