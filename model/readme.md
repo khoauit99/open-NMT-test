@@ -1,1 +1,1 @@
-# nơi chứa model train r
+# nơi chứa model train t
