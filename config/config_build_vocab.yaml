@@ -11,8 +11,8 @@ overwrite: False
 Corpus opts:
 data:
     corpus_1:
-        path_src: data/jyp_train_1000.txt
-        path_tgt: data/eng_train_1000.txt
+        path_src: toy-ende/data/src-train.txt
+        path_tgt: toy-ende/data/tgt-train.txt
     #valid:
         #path_src: toy-ende/src-val.txt
         #path_tgt: toy-ende/tgt-val.txt

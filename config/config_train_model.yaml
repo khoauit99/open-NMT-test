@@ -10,8 +10,8 @@ tgt_vocab: toy-ende/run/example.vocab.tgt
 # Corpus opts:
 data:
     corpus_1:
-        path_src: data/jyp_train_1000.txt
-        path_tgt: data/eng_train_1000.txt
+        path_src: toy-ende/data/src_train.txt
+        path_tgt: toy-ende/data/src_target.txt
     valid:
         path_src: toy-ende/data/src-val.txt
         path_tgt: toy-ende/data/tgt-val.txt
@@ -21,28 +21,33 @@ data:
 #tgt_vocab: toy-ende/run/example.vocab.tgt
 
 # Train on a single GPU
-world_size: 1
-gpu_ranks: [0]
+world_size: 0
+#gpu_ranks: [0]
 
 # Where to save the checkpoints
-save_model: model/model_test_v1
+save_model: model/model_japan_culture
 save_checkpoint_steps: 500
 train_steps: 1000
 valid_steps: 500
 
 
 # important parameter 
-src_word_vec_size : 2218
-tgt_word_vec_size : 1612
-batch_size : 64
+src_word_vec_size : 400
+tgt_word_vec_size : 400
+batch_size : 16
 learning_rate : 0.001
-rnn_size : 1000
+rnn_size : 1
 optim : 'adam' 
 #layers : 4
 
 #dropout : 0.3
 # none important 
 #enc_rnn_size : 
+
+#enc_rnn_size : 3000
+#dec_rnn_size : 3000
+
+
 
 
 # model adam nay co ve se la phu hop nhat voi thang nay hien tai 
