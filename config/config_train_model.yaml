@@ -10,8 +10,8 @@ tgt_vocab: toy-ende/run/example.vocab.tgt
 # Corpus opts:
 data:
     corpus_1:
-        path_src: toy-ende/data/src_train.txt
-        path_tgt: toy-ende/data/src_target.txt
+        path_src: toy-ende/data/src-train.txt
+        path_tgt: toy-ende/data/tgt-train.txt
     valid:
         path_src: toy-ende/data/src-val.txt
         path_tgt: toy-ende/data/tgt-val.txt
@@ -21,8 +21,8 @@ data:
 #tgt_vocab: toy-ende/run/example.vocab.tgt
 
 # Train on a single GPU
-world_size: 0
-#gpu_ranks: [0]
+world_size: 1
+gpu_ranks: [0]
 
 # Where to save the checkpoints
 save_model: model/model_japan_culture
@@ -36,7 +36,7 @@ src_word_vec_size : 400
 tgt_word_vec_size : 400
 batch_size : 16
 learning_rate : 0.001
-rnn_size : 1
+rnn_size : 100
 optim : 'adam' 
 #layers : 4
 
