@@ -18,3 +18,7 @@
 ### https://opus.nlpl.eu/
 ### https://object.pouta.csc.fi/OPUS-MultiCCAligned/v1/moses/en-ja.txt.zip
 
+
+
+# link model for tokenizer
+### https://bpemb.h-its.org/ja/
