@@ -22,3 +22,4 @@
 
 # link model for tokenizer
 ### https://bpemb.h-its.org/ja/
+### https://github.com/bheinzerling/bpemb
